@@ -1,4 +1,5 @@
 import { Group } from "./components/Group";
+import { SliderUI } from "./components/Slider";
 import { SwitchUI } from "./components/Switch";
 
 export const App = () => {
@@ -9,6 +10,9 @@ export const App = () => {
       </div>
       <div className="p-4">
         <Group />
+      </div>
+      <div className="p-4">
+        <SliderUI />
       </div>
     </div>
   );
